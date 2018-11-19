@@ -1,0 +1,8 @@
+<h3>Top Heroes</h3>
+<div class="row">
+    <div class="column large-4" *ngFor="let hero of heroes">
+        <a routerLink="/Detial/{{hero.id}}">
+            <h4>{{ hero.name }}</h4>
+        </a>
+    </div>
+</div>
